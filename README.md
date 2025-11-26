@@ -1,102 +1,96 @@
-🐍 Jogo da Cobrinha (Snake Game)
+# 🐍 Jogo da Cobrinha (Snake Game)
 
+![Badge](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Badge](https://img.shields.io/badge/Pygame-2.x-green?logo=pygame)
 
+Um simples e divertido jogo da cobrinha desenvolvido em **Python** usando **Pygame**.
+O jogo possui sistema de pontuação, aumento gradativo de velocidade, geração de obstáculos e tela de *Game Over*.
 
+---
 
-Um simples e divertido jogo da cobrinha desenvolvido em Python usando Pygame.
-O jogo possui sistema de pontuação, aumento gradativo de velocidade, geração de obstáculos e tela de Game Over.
+## 🎮 Demonstração
 
-🎮 Demonstração
+> Exemplo:
 
-Coloque aqui seu GIF ou vídeo mostrando o jogo funcionando
-Exemplo:
+![Gameplay](demo.gif)
 
-![Gameplay](docs/Jogo da Cobrinha.gif)
+---
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-Controle da cobra pelas setas do teclado
+* Controle da cobra pelas setas do teclado
+* Maçãs geradas aleatoriamente alinhadas à grade
+* Obstáculos adicionados conforme o jogador pontua
+* Aumento de velocidade a cada 3 pontos
+* Detecção de colisão com:
 
-Maçãs geradas aleatoriamente alinhadas à grade
+  * paredes
+  * corpo da cobra
+  * obstáculos
+  * maçã
+* Tela de *Game Over*
 
-Obstáculos adicionados conforme o jogador pontua
+---
 
-Aumento de velocidade a cada 3 pontos
+## 📦 Como executar
 
-Detecção de colisão com:
-
-paredes
-
-corpo da cobra
-
-obstáculos
-
-maçã
-
-Tela de Game Over
-
-📦 Como executar
-✔️ Pré-requisitos
+### ✔️ Pré-requisitos
 
 Certifique-se de ter instalado:
 
-Python 3.8+
-
-Biblioteca pygame
+* **Python 3.8+**
+* Biblioteca **pygame**
 
 Instalação:
 
+```bash
 pip install pygame
+```
 
-▶️ Executando o jogo
+### ▶️ Executando o jogo
 
 Baixe os arquivos e execute:
 
+```bash
 python Jogo-Cobrinha.py
+```
 
-📁 Estrutura do projeto
-📂 seu-repositorio/
-├── Jogo-Cobrinha.py
-├── README.md
-└── (coloque aqui seu GIF se quiser)
+---
 
-🧠 Lógica do jogo (Resumo)
+## 🧠 Lógica do jogo (Resumo)
 
-A cobra é representada por uma lista de coordenadas.
+* A cobra é representada por uma lista de coordenadas.
+* Cada movimento desloca a cabeça e arrasta o restante do corpo.
+* A maçã é gerada dentro da área da janela.
+* A cada maçã comida:
 
-Cada movimento desloca a cabeça e arrasta o restante do corpo.
+  * A cobra cresce
+  * Um novo obstáculo aparece
+  * A velocidade aumenta a cada 3 pontos
+* Game Over ocorre quando:
 
-A maçã é gerada dentro da área da janela, alinhada em múltiplos de BLOCK = 10.
+  * A cobra sai da tela
+  * A cabeça encosta no corpo
+  * A cabeça encosta em um obstáculo
 
-A cada maçã comida:
+---
 
-A cobra cresce
+## 📜 Código-fonte
 
-Um novo obstáculo aparece
-
-A velocidade aumenta a cada 3 pontos
-
-Game Over ocorre quando:
-
-A cobra sai da tela
-
-A cabeça encosta no corpo
-
-A cabeça encosta em um obstáculo
-
-📜 Código-fonte
-
-O código completo do jogo está no arquivo Jogo-Cobrinha.py.
+O código completo do jogo está no arquivo `Jogo-Cobrinha.py`.
 Ele utiliza módulos nativos do Python e o Pygame para renderização e controle de eventos.
 
-💡 Melhorias futuras (opcional)
+---
 
-Menu inicial
+## 💡 Melhorias futuras (opcional)
 
-Ranking de pontuação
+* Menu inicial
+* Ranking de pontuação
+* Skins para a cobra
+* Níveis e modos diferentes
+* Sons e música
 
-Skins para a cobra
+---
 
-Níveis e modos diferentes
 
-Sons e música
+Só pedir!
