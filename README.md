@@ -3,7 +3,7 @@
 ![Badge](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Badge](https://img.shields.io/badge/Pygame-2.x-green?logo=pygame)
 
-Um simples e divertido jogo da cobrinha desenvolvido em **Python** usando **Pygame**.
+Um  jogo da cobrinha desenvolvido em **Python** usando **Pygame**.
 O jogo possui sistema de pontuação, aumento gradativo de velocidade, geração de obstáculos e tela de *Game Over*.
 
 ---
@@ -89,8 +89,3 @@ Ele utiliza módulos nativos do Python e o Pygame para renderização e controle
 * Skins para a cobra
 * Níveis e modos diferentes
 * Sons e música
-
----
-
-
-Só pedir!
